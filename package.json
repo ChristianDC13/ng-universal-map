@@ -1,6 +1,6 @@
 {
   "name": "ng-universal-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NgUniversalMap is an open source Angular module that extends and simplifies the Leaflet implementation for Angular.",
   "main": "index.js",
   "scripts": {
