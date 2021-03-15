@@ -1,0 +1,19 @@
+<div class="single-card">
+  <h4>{{ cards.name }}</h4>
+  <small>{{ cards.address }}</small>
+  <!-- <p *ngFor="let schdule of cards.schedule">
+    Open from {{ schdule.opens }} to {{ schdule.closes }}
+  </p> -->
+  <p>Open until 8:00pm</p>
+
+  <p class="d-flex">
+    <span class="circle">
+      <img [src]="cards.logo" alt="">
+    </span>
+    {{ cards.description | shorten:55 }}
+  </p>
+  <div class="contact">
+    <button class="btn-yellow"><a [href]="cards.phone">Phone</a></button>
+    <button class="btn-yellow"><a [href]="cards.location">Directions</a></button>
+  </div>
+</div>
